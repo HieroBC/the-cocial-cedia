@@ -1,0 +1,25 @@
+{
+  "name": "the-cocial-cedia",
+  "version": "1.0.0",
+  "description": "Hiero Bartholo de Carvalho's TCC (Undergrad UNISANTOS)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HieroBC/the-cocial-cedia.git"
+  },
+  "author": "HieroBC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HieroBC/the-cocial-cedia/issues"
+  },
+  "homepage": "https://github.com/HieroBC/the-cocial-cedia#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.2"
+  }
+}
