@@ -1,0 +1,59 @@
+/* tags */
+/* 
+* 
+* 
+* 
+* 
+* 
+*/
+body {
+    background-color: lightgrey;
+}
+
+form div {
+    margin-top:5px;
+}
+
+.toolbar-inner a {
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    
+}
+
+/* classes */
+/* 
+* 
+* 
+* 
+* 
+* 
+*/
+.toolbar {
+    background-color: gray;
+    height: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.toolbar-inner {
+
+}
+
+.toolbar-right {
+    margin-left: 69%;
+    margin-right: 0;
+}
+
+/* ID */
+/* 
+* 
+* 
+* 
+* 
+* 
+*/
+
+

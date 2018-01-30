@@ -1,5 +1,8 @@
+const express = require('express');
 const app = require('./routes/my_express');
 const port = 3000;
+
+app.use(express.static('public'));
 
 require('./routes/express_middleware');
 
