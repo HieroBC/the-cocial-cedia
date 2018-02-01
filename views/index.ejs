@@ -8,44 +8,54 @@
     <body>
         <% include partials/header %>
         <div class="container">
-            <h1>Welcome to The Cocial Cedia!</h1>
-            <div class="col-sm-12 col-md-6">
-                <div>
-                    <h3>Login</h3>
-                    <form action="/login" method="POST">
-                        <input type="email" placeholder="E-mail" name="email">
-                        <input type="password" placeholder="Password" name="password">
-                        <button>Login</button>
+            <div class="jumbotron" style="margin-top: 10px">
+                    <h1 style="text-align: center">Welcome to The Cocial Cedia!</h1>
+            </div>
+            <div>
+                <div class="col-sm-12 col-md-5">
+                    <h2>Login</h2>
+                    <form class="form-group" action="/login" method="POST">
+                        <div>
+                            <input class="form-control" type="email" placeholder="E-mail" name="email">
+                        </div>
+                        <div>
+                            <input class="form-control" type="password" placeholder="Password" name="password">
+                        </div>
+                        <div>
+                            <button class="btn">Login</button>
+                        </div>
                     </form>
                 </div>
-                <h4>or</h4>
-                <div>
-                    <h3>Create an account:</h3>
-                    <form action="/createaccount" method="POST">
+                <div class="col-sm-12 col-md-2">
+                    <h3 style="text-align: center">or</h3>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <h2>Create an account:</h2>
+                    <form class="form-group" action="/createaccount" method="POST">
                         <div>
-                            <input type="text" placeholder="Full name" name="user_name">
+                            <input class="form-control" type="text" placeholder="Full name" name="user_name">
                         </div>
                         <div>
-                            <input type="email" placeholder="E-mail" name="email">
+                            <input class="form-control" type="email" placeholder="E-mail" name="email">
                         </div>
                         <div>
-                            <input type="password" placeholder="Password" name="password">
+                            <input class="form-control" type="password" placeholder="Password" name="password">
                         </div>
                         <div>
-                            <input type="password" placeholder="Repeat password" name="password_repeat">
+                            <input class="form-control" type="password" placeholder="Repeat password" name="password_repeat">
                         </div>
                         <div>
-                            <input type="text" placeholder="Gender" name="gender">
+                            <input class="form-control" type="text" placeholder="Gender" name="gender">
                         </div>
                         <div>
-                            <button>Register</button>
+                            <button class="btn" >Register</button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <!-- <div class="col-sm-12 col-md-6">
                 <img src="/images/tcc-logo.png" alt="the cocial cedia logo" width="300px">
-            </div>
+            </div> -->
         </div>
 
         <% include partials/scripts %>
