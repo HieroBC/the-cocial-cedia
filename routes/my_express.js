@@ -2,7 +2,6 @@
  *  solution, so that there is easier to share the same app object instance between files
  */
 
-
 var express = require('express');
 var app = express();
 

@@ -1,4 +1,5 @@
 var app = require('../my_express');
+var User = require('../../models/user');
 
 app.post('/createaccount', (req, res) => {
     // fetch database
