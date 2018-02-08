@@ -9,7 +9,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
 // mongoose config
-mongoose.connect('mongodb://localhost:27017/the-cocial-cedia')
+mongoose.connect('mongodb://localhost:27017/thecocialcedia')
 .then(() => {
     console.log('mongodb connected');
 })
