@@ -7,28 +7,33 @@
     </head>    
     <body class="hieroent">
         <% include partials/header %>
-        <div class="">
-            <div class="profile-pic">
-                <img src="" alt="">
+        <div style="heigth: 100%">
+            <div class="col-sm-2" id="user-menu-div">
+                <div class="profile-pic thumbnail">
+                    <img src="https://scontent.fssz2-1.fna.fbcdn.net/v/t1.0-9/26815302_788190494700526_2760692219127623922_n.jpg?oh=dca5250b9efd26ea1a56923ac0e72d37&oe=5ADAA5E3" width="100%" alt="">
+                </div>
+                <div class="menu">
+                    <ul id="user-menu">
+                        <li>
+                            <a href="#">My Profile</a>
+                        </li>
+                        <li>
+                            <a href="#">Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Friends</a>
+                        </li>
+                        <li>
+                            <a href="#">Posts</a>
+                        </li>
+                        <li>
+                            <a href="#">Chat</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">My Profile</a>
-                    </li>
-                    <li>
-                        <a href="#">Media</a>
-                    </li>
-                    <li>
-                        <a href="#">Friends</a>
-                    </li>
-                    <li>
-                        <a href="#">Posts</a>
-                    </li>
-                    <li>
-                        <a href="#">Chat</a>
-                    </li>
-                </ul>
+            <div class="col-sm-10" id="page-content">
+
             </div>
         </div>
         <% include partials/scripts %>

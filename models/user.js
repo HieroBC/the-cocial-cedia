@@ -5,15 +5,18 @@ var UserSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Name is required']
     },
-    email: {
-        type: String,
-        required: [true, 'Email is required']
+    auth:{
+        email: {
+            type: String,
+            required: [true, 'Email is required']
+        },
+        password: {
+            type: String,
+            required: [true, 'Password is required']
+        }
     },
-    password: {
-        type: String,
-        required: [true, 'Password is required']
-    },
-    gender: String
+    gender: String,
+    image: String
 });
 
 var User = mongoose.model('user', UserSchema);
